@@ -1,0 +1,68 @@
+.header{
+	background-color: $medium-gray;
+	.topHead{
+		padding: 20px 0;
+		.rightText{
+			a{
+				color: $white;
+				&:hover{
+					color: $black;
+				}
+			}
+		}
+	}
+	.bottomHead{
+		border-top: solid 1px #929292;
+		.nav{
+			ul{
+				display: flex;
+				flex-flow: wrap;
+				justify-content: space-between;
+				width: 100%;
+				li{
+					display: flex;
+					a{
+						padding: 20px;
+						color: $white;
+						font-size: 15px;
+						&:hover{
+							background-color: $dark-gray;
+						}
+					}
+					&.active{
+						a{
+							background-color: $dark-gray;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.navbar-toggler{
+	padding: 0;
+	&:focus{
+		box-shadow: none;
+		outline: none;
+		text-decoration: none;
+	}
+}
+.navbar-toggler-icon{
+	font-family: $louis-george;
+	color: $white;
+	font-size: 16px;
+	position: relative;
+	padding-left: 25px;
+	&:after{
+		content: "";
+		width: 18px;
+		height: 21px;
+		background-image: url('../../images/humberger.png');
+		background-repeat: no-repeat;
+		position: absolute;
+		left: 0;
+		top: 0;
+		cursor: pointer;
+		background-size: 100%;
+	}
+}

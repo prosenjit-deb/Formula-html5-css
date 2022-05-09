@@ -1,0 +1,41 @@
+@charset 'UTF-8';
+
+@import "base/font-awesome";
+@import 'layout/bootstrap/bootstrap.scss';
+@import "base/var";
+@import "layout/breakpoint";
+@import "base/common";
+@import "base/fonts";
+
+@import "layout/layout";
+    
+@import "utility/utility";
+
+@import "components/buttons";
+@import "components/breadcrumb";
+@import "components/input";
+
+@import "layout/sidebar";
+@import "layout/testimonials";
+// header
+@import "modules/header";
+
+// footer
+@import "modules/footer";
+
+
+//inner page
+@import "modules/form";
+
+
+
+//plugun page
+@import "plugin/slick/slick.scss";
+@import "plugin/slick/slick-theme.scss";
+@import 'plugin/aos/aos.scss';
+
+
+// pages
+@import "pages/home";
+
+    

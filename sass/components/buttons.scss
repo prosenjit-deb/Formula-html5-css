@@ -1,0 +1,64 @@
+.btn, .btnBlue {
+	font-size: 18px;
+	font-weight: $normal;
+	line-height: 24px;
+	padding:15px 25px;
+	border: none;
+	border-radius: 0;
+	text-align: center;
+	text-decoration: none;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s; /* For Safari 3.0 to 6.0 */
+	transition: all 0.3s; /* For modern browsers */
+	position: relative;
+	background: #2B6DD6;
+	color: $white;
+	text-transform: uppercase;
+	cursor: pointer;
+
+	&:hover {
+		text-decoration: none;
+		background: #1D1D1D;
+		color: $white;
+		transition: all 0.3s; /* For modern browsers */
+		-moz-transition: all 0.3s;
+		-webkit-transition: all 0.3s; /* For Safari 3.0 to 6.0 */
+	}
+	&:focus {
+		text-decoration: none;
+		outline: none;
+		border:none;
+	}
+}
+.btn-border {
+	font-size: 13px;
+	font-weight: $normal;
+	line-height: 24px;
+	padding:15px 30px;
+	border: solid 1px #262626;
+	border-radius: 0;
+	text-align: center;
+	text-decoration: none;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s; /* For Safari 3.0 to 6.0 */
+	transition: all 0.3s; /* For modern browsers */
+	position: relative;
+	color: #262626;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-family: $louis-george;
+
+	&:hover {
+		text-decoration: none;
+		background-color: $dark-gray;
+		color: $white;
+		transition: all 0.3s; /* For modern browsers */
+		-moz-transition: all 0.3s;
+		-webkit-transition: all 0.3s; /* For Safari 3.0 to 6.0 */
+	}
+	&:focus {
+		text-decoration: none;
+		outline: none;
+		box-shadow: none;
+	}
+}

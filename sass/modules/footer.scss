@@ -1,0 +1,64 @@
+.footer{
+    background-color: $footer-bg;
+    padding: 75px 0;
+    font-family: $louis-george;
+    font-size: 13px;
+    .f-top{
+        padding-bottom: 50px;
+        .newsletter{
+            .input-group{
+                margin-top: 10px;
+                max-width: 240px;
+                .form-control{
+                    font-size: 13px;
+                    height: 40px;
+                    border-color: #a3a3a3;
+                    &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+                        color: #b9b8b8;
+                      }
+                      &:focus{
+                          box-shadow: none;
+                          outline: none;
+                      }
+                }
+            }
+            .btn-border{
+                height: 40px;
+                font-size: 18px;
+                line-height: 21px;
+                padding: 10px 15px;
+                background-color: $white;
+                &:hover{
+                    background-color: $dark-gray;
+                    i{
+                        color: $white;
+                    }
+                }
+            }
+        }
+        .f-social{
+            ul{
+                display: flex;
+                li{
+                    margin-right: 10px;
+                    a{
+                        font-size: 18px;
+                        &:hover{
+                            i{
+                                color: $medium-gray;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .f-bottom{
+        padding: 50px 0 0;
+        border-top: solid 1px #d6d6d6;
+        p{
+            margin: 0;
+            font-family: $louis-george;
+        }
+    }
+}
